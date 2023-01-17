@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: Kevin Jobin
+email: kevinjobin1@ulaval.ca
+url: https://kevinjobin1.github.io/
+description: "Hi, I'm a Student Developer."
+keywords: "Web, Mobile, Software, Portfolio"
+skills: "Web Developer - Mobile Developer - Software Developer"
+meta_author: Jobin Kevin
 
 # Google webmaster tools
 google_verify:
@@ -21,7 +21,7 @@ contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+disqus_shortname: kevinjobin
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -32,31 +32,19 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
+  copyright: Kevin Jobin
+  location: Québec, QC, Canada
+  social: Find Me On
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/kevinjobin1
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+  - line: 4-2780 Avenue Gaspard
+  - line: Québec, QC G1E 3P1
 
 # Build settings
 markdown: kramdown
@@ -68,4 +56,4 @@ defaults:
       path: ""
       type: "posts"
     values:
-      permalink: ""
+      permalink: "/:short_year"
