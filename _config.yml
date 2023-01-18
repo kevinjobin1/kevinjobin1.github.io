@@ -1,6 +1,8 @@
 # Site settings
 title: Kevin Jobin
 email: kevin.jobin.1@ulaval.ca
+domain: kevinjobin1.github.io
+baseurl: /_site/
 url: https://kevinjobin1.github.io/
 description: "Portfolio Kevin Jobin"
 keywords: "Web, Mobile, Software, Portfolio"
