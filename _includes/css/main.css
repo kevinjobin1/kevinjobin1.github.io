@@ -80,6 +80,15 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.img-profile {
+    width: auto;
+    height: auto;
+    margin: 0 auto 60px auto;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
 header {
     text-align: center;
     color: #fff;
@@ -98,15 +107,15 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 header .intro-text .skills {
+    text-transform: uppercase;
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 @media(min-width:768px) {
@@ -116,11 +125,15 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 2.5em;
     }
 
     header .intro-text .skills {
         font-size: 1.75em;
+    }
+
+    header .img-profile {
+        width: 400px;
     }
 }
 
@@ -301,7 +314,7 @@ section.success {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
+    border: 2px solid #eee;
 }
 
 .floating-label-form-group input,
@@ -337,7 +350,7 @@ section.success {
 
 .floating-label-form-group::not(:first-child) {
     padding-left: 14px;
-    border-left: 1px solid #eee;
+    border: 2px solid #eee;
 }
 
 .floating-label-form-group-with-value label {
@@ -350,7 +363,26 @@ section.success {
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
+    border: 2px solid #eee;
+    border-radius: 0;
+}
+
+form .row:last-child .floating-label-form-group:last-child {
+    border-radius: 0;
+}
+
+ form .row .message-row {
+    border-radius: 0;
+}
+
+@media(min-width:767px) {
+ form .row:first-child .floating-label-form-group {
+    border: 2px solid #eee;
+    border-radius: 20px 20px 0 0;
+ }
+ form .row .message-row {
+    border-radius: 0 0 20px 20px;
+ }
 }
 
 footer {
@@ -375,6 +407,11 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }};
 }
 
+.btn-success:hover {
+    background-color: #{{ site.color.secondary-dark }};
+    border-color: #{{ site.color.secondary-dark }};
+}
+ 
 .btn-social {
     display: inline-block;
     width: 50px;

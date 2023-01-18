@@ -1,10 +1,10 @@
 # Site settings
 title: Kevin Jobin
-email: kevinjobin1@ulaval.ca
+email: kevin.jobin.1@ulaval.ca
 url: https://kevinjobin1.github.io/
-description: "Hi, I'm a Student Developer."
+description: "Portfolio Kevin Jobin"
 keywords: "Web, Mobile, Software, Portfolio"
-skills: "Web Developer - Mobile Developer - Software Developer"
+skills: "Software | Web | Mobile"
 meta_author: Jobin Kevin
 
 # Google webmaster tools
@@ -25,26 +25,29 @@ disqus_shortname: kevinjobin
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: ffbd18 #80B3FF
+  primary-rgb: "255, 189, 24" #"128,179,255"
+  primary-dark: d59800 
+  secondary: 2c2c2c #FD6E8A
+  secondary-dark: 242424 #A2122F
 
 # Footer settings
 footer:
   copyright: Kevin Jobin
-  location: Québec, QC, Canada
-  social: Find Me On
+  location: 
+  social: 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
     url: https://github.com/kevinjobin1
+  - title: linkedin
+    url: https://www.linkedin.com/in/kevin-jobin
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 4-2780 Avenue Gaspard
-  - line: Québec, QC G1E 3P1
+  - line: 
+  - line: 
 
 # Build settings
 markdown: kramdown
