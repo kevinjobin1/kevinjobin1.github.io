@@ -1,6 +1,8 @@
-# Kevin Jobin --------> [Portfolio](https://kevinjobin1.github.io/)
+# [Kevin Jobin](https://kevinjobin1.github.io/)
 
 <img align='right' src="https://media.giphy.com/media/zhYSVCirREeIZtONCI/giphy.gif" width="230">
+
+[![production](https://github.com/kevinjobin1/kevinjobin1.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/kevinjobin1/kevinjobin1.github.io/actions/workflows/pages/pages-build-deployment)
 
 [![Linkedin: kevin-jobin](https://img.shields.io/badge/-Kevin%20Jobin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kevin-jobin/)](https://www.linkedin.com/in/kevin-jobin/)
 [![GitHub Kevin](https://img.shields.io/github/followers/kevinjobin1?label=follow&style=social)](https://github.com/kevinjobin1)
