@@ -1,5 +1,7 @@
 # Kevin Jobin --------> [Portfolio](https://kevinjobin1.github.io/)
 
+
+
 <img align='right' src="https://media.giphy.com/media/zhYSVCirREeIZtONCI/giphy.gif" width="230">
 
 [![Linkedin: kevin-jobin](https://img.shields.io/badge/-Kevin%20Jobin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kevin-jobin/)](https://www.linkedin.com/in/kevin-jobin/)
@@ -25,7 +27,7 @@ Ce répertoire contient mon portfolio qui se veut un résumé de mes réalisatio
 ```javascript
 const kevin = {
   pronoms: "il" | "lui",
-  code: [Java, Kotlin, C#, Javascript, Typescript, HTML/CSS, C++, Python],
+  code: [Java, Kotlin, C#, Javascript, Typescript, HTML5/CSS3, C++, Python],
   outils: [React, Redux, Node, Git, Docker et +],
   architecture: ["Microservices", "EDD", "TDD", "DDD", "Reactive"],
   favoris:  {
@@ -33,17 +35,12 @@ const kevin = {
                 nickname: "Uncle Bob",
                 livre: "Design Principles and Design Patterns"
             },
- mantra: " 
-           N'importe quel idiot peut écrire du code qu'un ordinateur peut comprendre.
-           Les bons programmeurs écrivent du code que les humains peuvent comprendre. 
-           
-           - Martin Fowler
-         "
+ mantra: "N'importe quel idiot peut écrire du code qu'un ordinateur peut comprendre. Les bons programmeurs écrivent du code que les humains peuvent comprendre. - Martin Fowler"
 }
 ```
 
 </br>
-
+<img align='right' src="https://media.giphy.com/media/Z6uC5u5z8UqgrPlMdZ/giphy.gif" width="100">
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
@@ -57,8 +54,6 @@ const kevin = {
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 </br>
-
-<img align='right' src="https://media.giphy.com/media/Z6uC5u5z8UqgrPlMdZ/giphy.gif" width="100">
 
 ## Me Rejoindre
 
