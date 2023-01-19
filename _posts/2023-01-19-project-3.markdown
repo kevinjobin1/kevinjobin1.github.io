@@ -1,0 +1,13 @@
+---
+layout: default
+title: API Vente Anonyme - Java
+modal-id: 1
+date: 2021-09-01
+img: api-floppa.png
+alt: FloppaAPI
+project-date: Septembre 2021
+client: Introduction processus logiciel
+category: Développement Logiciel / Agile
+description: Ce projet consistait à concevoir en équipe de quatre (4) un API Java servant de back-end pour un éventuel site de transaction de ventes anonymes. Le développement de ce projet m'a permis d'en apprendre plus sur les processus de collaboration en équipe et les différentes étapes du développement logiciel (CI/CD, Agile, Scrum, Git, etc...). J'ai également pu comprendre le fonctionnement d'un API et son utilité.
+github_url: https://github.com/kevinjobin1/vente-anonyme-api
+---

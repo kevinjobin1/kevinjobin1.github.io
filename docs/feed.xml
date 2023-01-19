@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-01-19T10:27:08-05:00</updated>
+  <updated>2023-01-19T12:50:35-05:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -18,5 +18,107 @@
   
 
   
+  
+    <entry>
+      <title type="html">API Vente Anonyme - Java</title>
+      <link href="http://localhost:4000/21" rel="alternate" type="text/html" title="API Vente Anonyme - Java" />
+      <published>2021-09-01T00:00:00-04:00</published>
+      <updated>2021-09-01T00:00:00-04:00</updated>
+      <id>http://localhost:4000/project-3</id>
+      <content type="html" xml:base="http://localhost:4000/21"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Développement Logiciel / Agile" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Logiciel Conception 2D - Java</title>
+      <link href="http://localhost:4000/21" rel="alternate" type="text/html" title="Logiciel Conception 2D - Java" />
+      <published>2021-09-01T00:00:00-04:00</published>
+      <updated>2021-09-01T00:00:00-04:00</updated>
+      <id>http://localhost:4000/project-2</id>
+      <content type="html" xml:base="http://localhost:4000/21"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Développement Logiciel / OOP" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Démineur - Python</title>
+      <link href="http://localhost:4000/20" rel="alternate" type="text/html" title="Démineur - Python" />
+      <published>2020-09-01T00:00:00-04:00</published>
+      <updated>2020-09-01T00:00:00-04:00</updated>
+      <id>http://localhost:4000/project-1</id>
+      <content type="html" xml:base="http://localhost:4000/20"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Développement / Jeux Vidéo" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
   
 </feed>

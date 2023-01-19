@@ -1,0 +1,13 @@
+---
+layout: default
+title: Logiciel Conception 2D - Java
+modal-id: 1
+date: 2021-09-01
+img: microsoftears.png
+alt: Microsoftears
+project-date: Septembre 2021
+client: Génie Logiciel orienté-objet
+category: Développement Logiciel / OOP
+description: Ce projet consistait à concevoir en équipe de quatre (4) une application en Java servant à réaliser un plan de fabrication pour des micro-roulottes de type Teardrop. Le défi était de n'utiliser aucune librarie et d'implémenter une architecture de type 'MVC' selon Larmann. Il était aussi demandé de coder nous-mêmes les algorithmes de détection et calculs permettant l'affichage réactif.
+github_url: https://github.com/kevinjobin1/microsoftears
+---

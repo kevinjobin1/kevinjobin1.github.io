@@ -21,7 +21,7 @@
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.client %}
-              <li>Client:
+              <li>Cours:
                 <strong>{{ post.client }}</strong>
               </li>
               {% endif %}
@@ -31,8 +31,13 @@
               </li>
               {% endif %}
               {% if post.category %}
-              <li>Service:
+              <li>Catégorie:
                 <strong>{{ post.category }}</strong>
+              </li>
+              {% endif %}
+              {% if post.github_url %}
+              <li>Github:
+                <strong><a href="{{ post.github_url }}">voir le projet</a></strong>
               </li>
               {% endif %}
             </ul>
