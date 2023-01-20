@@ -235,14 +235,10 @@ section.success {
     border: 1px;
     border-style: solid;
     border-color: #fff;
-    border-radius: 15px;
-    background-color: #{{ site.color.secondary }};
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
 
-#portfolio .portfolio-item h3 {
-    color: #fff;    
-    font-size: 1.5em;
-}
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
