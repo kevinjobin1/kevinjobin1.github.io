@@ -10,4 +10,5 @@ client: Génie Logiciel orienté-objet
 category: Développement Logiciel / OOP
 description: Ce projet consistait à concevoir en équipe de quatre (4) une application en Java servant à réaliser un plan de fabrication pour des micro-roulottes de type Teardrop. Le défi était de n'utiliser aucune librarie et d'implémenter une architecture de type 'MVC' selon Larmann. Il était aussi demandé de coder nous-mêmes les algorithmes de détection et calculs permettant l'affichage réactif.
 github_url: https://github.com/kevinjobin1/microsoftears
+demo_url: 
 ---

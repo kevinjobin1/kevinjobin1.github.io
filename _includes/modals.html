@@ -14,33 +14,60 @@
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
-            <hr class="star-primary">
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <hr class="star-primary">
             {% if post.description %}
-            <p>{{ post.description }}</p>
+            <p class="modal-description">{{ post.description }}</p>
             {% endif %}
-            <ul class="list-inline item-details">
+            {% if post.github_url %}
+            <div class="modal-link">
+              <strong><a class="btn btn-md btn-success uppercase" href="{{ post.github_url }}" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                  voir
+                  le
+                  projet</a></strong>
+            </div>
+            {% endif %}
+            {% if post.demo_url %}
+            <div class="modal-link">
+              <strong><a class="btn btn-md btn-success uppercase" href="{{ post.demo_url }}" target="_blank">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  voir la
+                  démo</a></strong>
+            </div>
+            {% endif %}
+            <div class="container item-details">
               {% if post.client %}
-              <li>Cours:
-                <strong>{{ post.client }}</strong>
-              </li>
+              <div class="item-details-row">
+                <div class="col">
+                  Cours:
+                </div>
+                <div class="col">
+                  <strong>{{ post.client }}</strong>
+                </div>
+              </div>
               {% endif %}
               {% if post.project-date %}
-              <li>Date:
-                <strong>{{ post.project-date }}</strong>
-              </li>
+              <div class="item-details-row">
+                <div class="col">
+                  Date:
+                </div>
+                <div class="col">
+                  <strong>{{ post.project-date }}</strong>
+                </div>
+              </div>
               {% endif %}
               {% if post.category %}
-              <li>Catégorie:
-                <strong>{{ post.category }}</strong>
-              </li>
+              <div class="item-details-row">
+                <div class="col">
+                  Catégorie:
+                </div>
+                <div class="col">
+                  <strong>{{ post.category }}</strong>
+                </div>
+              </div>
               {% endif %}
-              {% if post.github_url %}
-              <li>Github:
-                <strong><a href="{{ post.github_url }}">voir le projet</a></strong>
-              </li>
-              {% endif %}
-            </ul>
+            </div>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Fermer</button>
           </div>

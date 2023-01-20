@@ -10,5 +10,5 @@ client: Introduction à la programmation en Python
 category: Développement / Jeux Vidéo
 description: Ce projet consistait à concevoir en équipe de trois (3) l’interface graphique et les fonctionnalités du jeu de Démineur (MineSweeper) en utilisant Python. Il était ensuite requis de rédiger un rapport technique et de tester le projet afin de détecter des erreurs.
 github_url: https://github.com/kevinjobin1/pygame-demineur
-
+demo_url: 
 ---

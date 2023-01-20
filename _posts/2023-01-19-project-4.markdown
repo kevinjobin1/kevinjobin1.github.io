@@ -10,4 +10,5 @@ client: Développement d'applications Web
 category: Développement Web
 description: Ce projet de session réalisé en équipe de six (6) consistait à développer une application permettant de trouver des restaurants et de partager ses favoris entre amis. Le tout a été réalisé à l'aide du framework JavaScript Vue2, l'application web contenait plusieurs fonctionalités tel qu'une page d'authentification/enregistrement, une page profil utilisateur, une page détails du restaurant (inclant une map interactive), une page d'accueil où l'utilisateur pouvait inscrire ou détecter la localisation et permettre de trier dynamiquement les restaurants selon les filtres choisi. 
 github_url: https://github.com/kevinjobin1/UFood-Vue
+demo_url: 
 ---

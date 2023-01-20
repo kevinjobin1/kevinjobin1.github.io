@@ -10,4 +10,5 @@ client: Qualité et Métrique du Logiciel
 category: Développement Logiciel - Back-end
 description: Ce projet de session réalisé en équipe de six (6) consistait à développer un back-end API destiné à gérer un Café. Le défi consistait à respecter les normes de qualité imposées afin d'avoir un code propre respectant les meilleurs pratiques du domaine. C'est également au cours de ce projet que j'ai été initié au principe du Code Review, ainsi à chaque nouvelle itération, un assistant évaluait la fonctionnalité de notre API de même que la qualité de notre architecture.
 github_url: https://github.com/kevinjobin1/Cafe-API
+demo_url: 
 ---

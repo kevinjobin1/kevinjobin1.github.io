@@ -9,5 +9,6 @@ project-date: Été 2021
 client: Stage au MAPAQ
 category: Développement Logiciel - .NET
 description: Mandat de mon stage d'été consitant au remplacement complet du logiciel d'achats (OMS) interne de mon employeur. Le partage du code n'est pas permis par souci de confidentialité. J'ai du effectué une migration des données contenues dans les bases de données Microsoft Access vers Oracle PL/SQL à l'aide de script automatisé. J'ai conçu le design de l'interface utilisateur (UI) et j'ai modifié les processus d'achats afin de simplifer l'expérience utilisateur (UX). J'ai implémenté une architecture de type MVVM et j'ai implémenté plusieurs fonctionnalités tel que l'ajout de produits et fournisseurs, un panier d’achat, création et envoi de bons de commande, ajouts de filtres et implémentation de recherche suggestive, envoi de courriel automatisé, et plus encore...
-github_url: 
+github_url:
+demo_url:  
 ---

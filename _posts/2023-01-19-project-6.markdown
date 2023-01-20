@@ -9,5 +9,6 @@ project-date: Hiver 2022
 client: Qualité et Métrique du Logiciel
 category: Développement Web - Full Stack
 description: Ce projet personnel encore en développement consiste à bâtir un site web pour l'entreprise de lavage à pression "Lavage Ultima". Étant donné que celle-ci n'est pas encore lancée, le site web n'est pas encore 100% fonctionnel. Écrit en JavaScript et utilise jQuery pour le moment car l'hébergement est statique. Je prévois migré le front-end vers le framework React et le back-end vers NodeJS + Express. 
-github_url: https://lavageultima.com/ 
+github_url:
+demo_url: https://lavageultima.com/ 
 ---
