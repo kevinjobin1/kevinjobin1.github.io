@@ -85,6 +85,17 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 0px;
+    border-style: solid;
+    border-color: #{{ site.color.secondary }};
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
 .img-profile {
     width: auto;
     height: auto;
@@ -220,6 +231,17 @@ section.success {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    padding: 5px 10px 10px 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 15px;
+    background-color: #{{ site.color.secondary }};
+}
+
+#portfolio .portfolio-item h3 {
+    color: #fff;    
+    font-size: 1.5em;
 }
 
 #portfolio .portfolio-item .portfolio-link {
