@@ -31,9 +31,9 @@ const kevin = {
   outils: [React, Redux, Node, Git, Docker et +],
   architecture: ["Microservices", "EDD", "TDD", "DDD", "Reactive"],
   favoris:  {
-                author: "Robert C. Martin",
-                nickname: "Uncle Bob",
-                livre: "Design Principles and Design Patterns"
+                auteur: "Robert C. Martin",
+                surnom: "Uncle Bob",
+                ouvrage: "Design Principles and Design Patterns"
             },
  mantra: " 
            N'importe quel idiot peut écrire du code qu'un ordinateur peut comprendre.
