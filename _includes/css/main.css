@@ -86,9 +86,6 @@ hr.star-primary:after {
 }
 
 .img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
     border: 0px;
     border-style: solid;
     border-color: #{{ site.color.secondary }};
@@ -231,7 +228,7 @@ section.success {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
-    padding: 5px 10px 10px 10px;
+    padding: 5px 15px 15px 15px;
     border: 1px;
     border-style: solid;
     border-color: #fff;
@@ -282,6 +279,18 @@ section.success {
     margin: 0;
 }
 
+#portfolio .portfolio-item .portfolio-link .img-responsive {
+    object-fit: cover;
+    height: 200px;
+    width: 350px;
+    margin: auto;
+}
+
+#portfolio .portfolio-item .project-link  {
+    margin-top: 10px;
+    text-align: center;
+}
+
 #portfolio * {
     z-index: 2;
 }
@@ -289,6 +298,10 @@ section.success {
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
